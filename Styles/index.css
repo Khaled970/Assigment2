@@ -1,0 +1,134 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/bee1.jpg);
+    background-image: url(../images/bee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.apppro {
+  background-color: rgb(238, 163, 135);
+  color: rgb(12, 11, 11);
+  margin: 16%;
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.apppro:hover {
+  background-color: #2f3b42;
+}
+
+.Portfolio {
+  position: relative;
+  display: inline-block;
+}
+
+.Portfolio-con{
+  display: none;
+  position: absolute;
+  background-color: #b9adad;
+  min-width: 161px;
+  box-shadow: 0px 8px 16px 0px rgba(187, 96, 96, 0.2);
+  z-index: 1;
+}
+
+.Portfolio-con a {
+  color: rgb(32, 22, 22);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.Portfolio-con a:hover {background-color: #766363}
+
+.show {display:block;}
+.delvar{
+    max-width: 50%;
+    min-height: 50%;
+}
+h1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.Logginbtn{
+    background-color: rgb(92, 85, 82);
+    color: rgb(127, 113, 113);
+    margin: 31%;
+    padding: 31%;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+.Logginbtn:hover{background-color:#7f98aa ;}
+.active{
+    background-color: rgb(59, 55, 36);
+}
+
+.Loggin{
+    display: inline-block;
+    position: relative;
+}
+.site-con {
+    display: none;
+    background-color: #cf1717;
+    max-width: 560px;
+    min-height: 250px;
+    padding:19px 19px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #df7c7c;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+.image {
+    max-width: 100px;
+    width: 40%;
+    height: auto;
+    float: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    position: static;
+    
+}
+
+.input-field{
+    border: 2px solid rgb(206, 216, 216);
+    background-color: rgba(181, 65, 113, 0.7);
+}
+label {
+    display: flex;
+    margin-top: 30px;
+    font-size: 21px;
+    color: rgb(138, 59, 127);
+    border: rgb(57, 16, 52);
+    background-color: rgb(61, 135, 93);
+}
+input {
+    font-size: 22px;
+    margin-top: 2px;
+
+}
+
+.images {
+    max-width: 200px;
+    width: 60%;
+    height: auto;
+    float: center;
+    margin-top: -35rem;
+    margin-right: 5rem;
+    position: relative;
+    
+}
