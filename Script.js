@@ -1,5 +1,5 @@
- // document.querySelector(".Modal").style.display = "flex";
-//});
+import {useState} from "react";
+
 function myFunction(){
     document.getElementById("myApp").classList.toggle("show");
 }
@@ -16,8 +16,6 @@ window.onclick = function(event){
     }
 }
 
-//document.querySelector(".closeA").addEventListener("click", function(){
- // document.querySelector(".Modal").style.display = "flex";
 
 var dropdown = document.getElementsByClassName("Logginbtn");
 var i;
@@ -33,13 +31,3 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
-
-// this will output
-
-//document.getElementById("button").addEventListener("click", function(){
- // document.querySelector(".Modal").style.display = "flex";
-//});
-
-//document.querySelector(".closeA").addEventListener("click", function(){
- // document.querySelector(".Modal").style.display = "flex";
-//});
